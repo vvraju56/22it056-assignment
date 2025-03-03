@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  tharshini27:
+    image: "tharshini27/22it050-personal-api"
+    container_name: tharshini27
+    restart: always
+    ports:
+      - "50:5000"
+  personal_api:
+    image: "vvraju056/22it056-personal-api"
+    container_name: personal_api
+    restart: always
+    ports:
+      - "56:5000"
+
+  vignesh0098:
+    image: "vignesh0098/22itl08"
+    container_name: vignesh0098
+    restart: always
+    ports:
+      - "98:5000"   
+  pranesh2005:
+    image: pranesh2005/22it032-personl-api
+    container_name: pranesh2005
+    restart: always
+    ports:
+      - "32:5000"
